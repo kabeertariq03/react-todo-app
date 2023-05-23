@@ -1,0 +1,72 @@
+.MainApp {
+    display: block;
+    margin-top: 40px;
+    text-align: center;
+    
+}
+
+.Task__Item {
+    margin-top: 10px;
+}
+
+.Task__Item > button {
+    padding: 7px;
+    border-radius: 15px;
+    background-color: red;
+    outline: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.Task__Item > span {
+    font-size: 1.3rem;
+    margin-left: 5px;
+    color: #4287f5;
+    margin-right: 15px;
+    font-weight: bold;
+}
+
+.Task-List {
+    color: wheat;
+}
+
+.task-heading {
+    margin-top: 20px;
+    font-size: 2.2rem ;
+}
+
+.MainInput {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+
+
+.MainInput > input {
+    height: 30px;
+    width: 50%;
+    border: 5px solid #4287f5;
+    border-radius: 30px;
+    text-align: center;
+    outline: none;
+    padding: 10px;
+}
+
+
+
+.MainInput > button {
+    height: 40px;
+    width: 70px;
+    /* border-radius: 100%; */
+    background-color: #4287f5;
+    border-radius: 30px;
+    margin-top: 10px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    outline: none;
+    margin-left: 5px;
+}
